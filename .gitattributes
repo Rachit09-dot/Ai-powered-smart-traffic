@@ -1,0 +1,22 @@
+# Normalize line endings for cross-platform consistency
+* text=auto eol=lf
+*.py text eol=lf
+*.jsx text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.gitignore text eol=lf
+
+# Binary files — no line ending conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.mp4 binary
+*.avi binary
+*.pt binary
+*.onnx binary
